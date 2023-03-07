@@ -1,0 +1,6 @@
+nome = input('Digite seu nome completo: ')
+print(nome.strip().upper())
+print(nome.strip().lower())
+print('Caracteres do nome completo: ', len(nome.replace(" ","").strip()))
+nomestr = nome.strip().split()
+print('Caracteres do primeiro nome: ', len(nomestr[0]))
