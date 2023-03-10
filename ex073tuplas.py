@@ -24,3 +24,4 @@ print(f'Times em ordem alfabética: {sorted(colocacao)}')
 print('-='*15)
 print(f'Santos está na {colocacao.index("Santos")+1}ª colocação')
 print('-='*15)
+#end

@@ -7,3 +7,4 @@ while True:
             break
     n = input('Tente novamente! Digite um número de 0 a 20: ')
 print(f'O numero que você digitou foi {tupla[n]}')
+#end
