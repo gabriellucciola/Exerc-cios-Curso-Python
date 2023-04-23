@@ -6,4 +6,4 @@ As atividades dos programas desta pasta do curso de python são referentes as at
 
 As atividades podem estar com 1 de diferença das aulas do curso propriamente dito.
 
-att 23/04/2023.
+att 23/04/2023
