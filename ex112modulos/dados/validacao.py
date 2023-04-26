@@ -1,5 +1,5 @@
 def validacao(valor):
-    if valor.replace(".", ",").count(",") > 1:
+    if valor.count(",") > 1:
         return f"Erro: \"{valor}\" é um preço inválido"
     for digito in valor:
         if digito not in "0123456789,":

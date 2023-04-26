@@ -3,7 +3,7 @@ from moedas import moedas
 
 value = True
 while value:
-    valor = validacao.validacao(input('Digite um valor: R$').strip())
+    valor = validacao.validacao(input('Digite um valor: R$').strip().replace(".", ","))
     if isinstance(valor, float):
         print(moedas.resumo(valor, 10, 13))
         break
